@@ -18,3 +18,9 @@ int findmin(int t[], int n){
     }
     return min;
 }
+
+void compare(int t[], int n){
+    printf("Le max est %d \n", findmax(t,n));
+    printf("Le min est %d \n", findmin(t,n));
+
+} 
