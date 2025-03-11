@@ -1,6 +1,10 @@
-void compare(int t[], int n);
-
 void main() {
-    int t[10]; int n;
+    int t[10], int n , i;
+    printf("donner la taille du tableau");
+    scanf("%d",&n);
+    for (i=0,i<n;i++) {
+        printf("donnez un element du tableau");
+        scanf("%d",&t[i]);
+    }
     compare(t,n);
 }
