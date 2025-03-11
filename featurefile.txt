@@ -1,0 +1,20 @@
+int findmax(int t[], int n){
+    int i, max=t[0];
+    for (i=1;i< n ;i++){
+
+        if (t[i] > max) 
+        max = t[i];
+    
+    }
+    return max;
+}
+
+int findmin(int t[], int n){
+    int i, min=t[0];
+    for (i=0;i< n ;i++){
+        if (t[i] < min ) 
+        min = t[i];
+    
+    }
+    return min;
+}
